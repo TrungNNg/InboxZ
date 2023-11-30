@@ -9,8 +9,35 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack(spacing: 50) {
+                NavigationLink {
+                    EditTaskView()
+                } label: {
+                    Text("Edit Task")
+                }
+                /*
+                NavigationLink {
+                    EditGoalView()
+                } label: {
+                    Text("Edit Goal")
+                }
+                NavigationLink {
+                    AllTaskView()
+                } label: {
+                    Text("All Tasks")
+                }
+                NavigationLink {
+                    AllGoalView()
+                } label: {
+                    Text("All Goals")
+                }
+                 */
+            }
+        }
     }
+    
+    
 }
 
 #Preview {

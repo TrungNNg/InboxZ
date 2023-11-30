@@ -8,17 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		87CF1D482B1811BF00F279D2 /* ZeroInboxV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D472B1811BF00F279D2 /* ZeroInboxV2App.swift */; };
-		87CF1D4A2B1811BF00F279D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D492B1811BF00F279D2 /* ContentView.swift */; };
 		87CF1D4C2B1811C000F279D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CF1D4B2B1811C000F279D2 /* Assets.xcassets */; };
 		87CF1D4F2B1811C000F279D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CF1D4E2B1811C000F279D2 /* Preview Assets.xcassets */; };
+		87CF1D562B1811E600F279D2 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D552B1811E600F279D2 /* EditTaskView.swift */; };
+		87CF1D582B1811FB00F279D2 /* EditGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D572B1811FB00F279D2 /* EditGoalView.swift */; };
+		87CF1D5A2B18121100F279D2 /* AllTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D592B18121100F279D2 /* AllTaskView.swift */; };
+		87CF1D5C2B18121E00F279D2 /* AllGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D5B2B18121E00F279D2 /* AllGoalView.swift */; };
+		87CF1D5E2B18122900F279D2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D5D2B18122900F279D2 /* MainView.swift */; };
+		87CF1D632B1812E100F279D2 /* ZeroInbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D612B1812E100F279D2 /* ZeroInbox.xcdatamodeld */; };
+		87CF1D652B1813BA00F279D2 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D642B1813BA00F279D2 /* AppModel.swift */; };
+		87CF1D6C2B181F6C00F279D2 /* UserCompleteGoal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D662B181F6C00F279D2 /* UserCompleteGoal+CoreDataClass.swift */; };
+		87CF1D6D2B181F6C00F279D2 /* UserCompleteGoal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D672B181F6C00F279D2 /* UserCompleteGoal+CoreDataProperties.swift */; };
+		87CF1D6E2B181F6C00F279D2 /* UserTask+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D682B181F6C00F279D2 /* UserTask+CoreDataClass.swift */; };
+		87CF1D6F2B181F6C00F279D2 /* UserTask+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D692B181F6C00F279D2 /* UserTask+CoreDataProperties.swift */; };
+		87CF1D702B181F6C00F279D2 /* UserGoal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D6A2B181F6C00F279D2 /* UserGoal+CoreDataClass.swift */; };
+		87CF1D712B181F6C00F279D2 /* UserGoal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF1D6B2B181F6C00F279D2 /* UserGoal+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		87CF1D442B1811BF00F279D2 /* ZeroInboxV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroInboxV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CF1D472B1811BF00F279D2 /* ZeroInboxV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroInboxV2App.swift; sourceTree = "<group>"; };
-		87CF1D492B1811BF00F279D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		87CF1D4B2B1811C000F279D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87CF1D4E2B1811C000F279D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87CF1D552B1811E600F279D2 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		87CF1D572B1811FB00F279D2 /* EditGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalView.swift; sourceTree = "<group>"; };
+		87CF1D592B18121100F279D2 /* AllTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTaskView.swift; sourceTree = "<group>"; };
+		87CF1D5B2B18121E00F279D2 /* AllGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGoalView.swift; sourceTree = "<group>"; };
+		87CF1D5D2B18122900F279D2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		87CF1D622B1812E100F279D2 /* ZeroInbox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZeroInbox.xcdatamodel; sourceTree = "<group>"; };
+		87CF1D642B1813BA00F279D2 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		87CF1D662B181F6C00F279D2 /* UserCompleteGoal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserCompleteGoal+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		87CF1D672B181F6C00F279D2 /* UserCompleteGoal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserCompleteGoal+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		87CF1D682B181F6C00F279D2 /* UserTask+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserTask+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		87CF1D692B181F6C00F279D2 /* UserTask+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserTask+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		87CF1D6A2B181F6C00F279D2 /* UserGoal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserGoal+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		87CF1D6B2B181F6C00F279D2 /* UserGoal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserGoal+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +76,11 @@
 			isa = PBXGroup;
 			children = (
 				87CF1D472B1811BF00F279D2 /* ZeroInboxV2App.swift */,
-				87CF1D492B1811BF00F279D2 /* ContentView.swift */,
-				87CF1D4B2B1811C000F279D2 /* Assets.xcassets */,
+				87CF1D602B18124800F279D2 /* Model */,
+				87CF1D5F2B18123000F279D2 /* View */,
 				87CF1D4D2B1811C000F279D2 /* Preview Content */,
+				87CF1D4B2B1811C000F279D2 /* Assets.xcassets */,
+				87CF1D612B1812E100F279D2 /* ZeroInbox.xcdatamodeld */,
 			);
 			path = ZeroInboxV2;
 			sourceTree = "<group>";
@@ -65,6 +91,32 @@
 				87CF1D4E2B1811C000F279D2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87CF1D5F2B18123000F279D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87CF1D5D2B18122900F279D2 /* MainView.swift */,
+				87CF1D552B1811E600F279D2 /* EditTaskView.swift */,
+				87CF1D572B1811FB00F279D2 /* EditGoalView.swift */,
+				87CF1D592B18121100F279D2 /* AllTaskView.swift */,
+				87CF1D5B2B18121E00F279D2 /* AllGoalView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		87CF1D602B18124800F279D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87CF1D642B1813BA00F279D2 /* AppModel.swift */,
+				87CF1D682B181F6C00F279D2 /* UserTask+CoreDataClass.swift */,
+				87CF1D692B181F6C00F279D2 /* UserTask+CoreDataProperties.swift */,
+				87CF1D6A2B181F6C00F279D2 /* UserGoal+CoreDataClass.swift */,
+				87CF1D6B2B181F6C00F279D2 /* UserGoal+CoreDataProperties.swift */,
+				87CF1D662B181F6C00F279D2 /* UserCompleteGoal+CoreDataClass.swift */,
+				87CF1D672B181F6C00F279D2 /* UserCompleteGoal+CoreDataProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +189,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87CF1D4A2B1811BF00F279D2 /* ContentView.swift in Sources */,
+				87CF1D6C2B181F6C00F279D2 /* UserCompleteGoal+CoreDataClass.swift in Sources */,
+				87CF1D712B181F6C00F279D2 /* UserGoal+CoreDataProperties.swift in Sources */,
+				87CF1D562B1811E600F279D2 /* EditTaskView.swift in Sources */,
+				87CF1D6D2B181F6C00F279D2 /* UserCompleteGoal+CoreDataProperties.swift in Sources */,
+				87CF1D5E2B18122900F279D2 /* MainView.swift in Sources */,
+				87CF1D5C2B18121E00F279D2 /* AllGoalView.swift in Sources */,
+				87CF1D652B1813BA00F279D2 /* AppModel.swift in Sources */,
+				87CF1D632B1812E100F279D2 /* ZeroInbox.xcdatamodeld in Sources */,
+				87CF1D6F2B181F6C00F279D2 /* UserTask+CoreDataProperties.swift in Sources */,
+				87CF1D5A2B18121100F279D2 /* AllTaskView.swift in Sources */,
+				87CF1D702B181F6C00F279D2 /* UserGoal+CoreDataClass.swift in Sources */,
+				87CF1D582B1811FB00F279D2 /* EditGoalView.swift in Sources */,
 				87CF1D482B1811BF00F279D2 /* ZeroInboxV2App.swift in Sources */,
+				87CF1D6E2B181F6C00F279D2 /* UserTask+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +406,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87CF1D612B1812E100F279D2 /* ZeroInbox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87CF1D622B1812E100F279D2 /* ZeroInbox.xcdatamodel */,
+			);
+			currentVersion = 87CF1D622B1812E100F279D2 /* ZeroInbox.xcdatamodel */;
+			path = ZeroInbox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 87CF1D3C2B1811BF00F279D2 /* Project object */;
 }

@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct ZeroInboxV2App: App {
+    
+    @StateObject var model = ZeroInboxModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environment(\.managedObjectContext, model.container.viewContext)
+                //.environmentObject(model)
         }
     }
 }
