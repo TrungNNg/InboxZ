@@ -2,7 +2,7 @@
 //  UserGoal+CoreDataClass.swift
 //  ZeroInboxV2
 //
-//  Created by Trung Nguyen on 11/29/23.
+//  Created by Trung Nguyen on 12/3/23.
 //
 //
 

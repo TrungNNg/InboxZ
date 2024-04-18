@@ -9,34 +9,29 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        NavigationStack {
-            VStack(spacing: 50) {
-                NavigationLink {
-                    EditTaskView()
-                } label: {
-                    Text("Edit Task")
+        TabView {
+            HomeView()
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Home")
                 }
-                /*
-                NavigationLink {
-                    EditGoalView()
-                } label: {
-                    Text("Edit Goal")
+            AllTaskView()
+                .tabItem {
+                    Image(systemName: "square.3.layers.3d.down.left")
+                    Text("Task")
                 }
-                NavigationLink {
-                    AllTaskView()
-                } label: {
-                    Text("All Tasks")
+            AllGoalView()
+                .tabItem {
+                    Image(systemName: "flag.checkered")
+                    Text("Goal")
                 }
-                NavigationLink {
-                    AllGoalView()
-                } label: {
-                    Text("All Goals")
+            SettingView()
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("Setting")
                 }
-                 */
-            }
         }
-    }
-    
+    } // end body
     
 }
 

@@ -8,17 +8,19 @@
 import Foundation
 import CoreData
 
+/// This model create CoreData, FaceID, and Storekit
 class ZeroInboxModel: ObservableObject {
+    //CoreData
     let container = NSPersistentContainer(name: "ZeroInbox")
     
     init() {
         container.loadPersistentStores { desc, error in
             if let error = error {
                 print("load core data failed \(error)")
+                exit(EXIT_FAILURE)
             }
         }
     }
-    
 }
 
 enum TaskStatus: Int16, CaseIterable, Identifiable {

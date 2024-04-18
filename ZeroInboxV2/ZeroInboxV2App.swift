@@ -9,14 +9,18 @@ import SwiftUI
 
 @main
 struct ZeroInboxV2App: App {
+    @AppStorage("darkModeOn") private var darkModeOn = false
+    @AppStorage("inactiveBegin") private var inactiveBegin: Double = 0
+    @AppStorage("FaceIDOn") private var FaceIDOn: Bool = false
     
-    @StateObject var model = ZeroInboxModel()
+    @StateObject var model = ZeroInboxModel() // set up CoreData and LAContext
     
     var body: some Scene {
         WindowGroup {
             MainView()
                 .environment(\.managedObjectContext, model.container.viewContext)
-                //.environmentObject(model)
+                .environmentObject(model)
+                .preferredColorScheme(darkModeOn ? .dark : .light)
         }
     }
 }
